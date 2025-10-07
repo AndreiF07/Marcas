@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>La Turra</title>
+    </head>
+
+    <body>
+        <h1>Centro de Adopción de Animales “La Turra”</h1>
+        <a href="https://protectorasalmantina.org" target="_blank">Enlace a ASPAP</a>
+        <br>
+        <img src="https://mivet.com/wp-content/uploads/2024/10/Foto-Post-2-3.jpg" alt="Imagen de un perro en una jaula">
+        <ul>
+            <li>Perros</li>
+            <li>Gatos</li>
+            <li>Camellos</li>
+        </ul>
+        <p>Asociación para adoptar <strong>perros</strong>, <i>gatos</i> y <u>camellos</u></p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nº de adopción</th>
+                    <th>Nombre del animal</th>
+                    <th>Fecha</th>
+                    <th>Enlace para ver foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rogelio</td>
+                    <td>01/05/2023</td>
+                    <td><a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Labrador_Retriever_%281210559%29.jpg" target="_blank">Foto</a></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Merelinda</td>
+                    <td>20/01/2021</td>
+                    <td><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/250px-Cat_November_2010-1a.jpg" target="_blank">Foto</a></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Jacinto</td>
+                    <td>30/05/2015</td>
+                    <td><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJTf0BQGwt5D26sqWB9sM0BrHaiMAbA3K5BQ&s" target="_blank">Foto</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form action="" method="POST">
+                <label for="nombre">Nombre completo*: <input type="text" name="nombre" id="nombre" required></label><br>
+                <label for="email">Email: <input type="email" name="email" id="email"></label><br>
+                <label for="tipo">Tipo de animal deseado: 
+                    <select name="tipo" id="tipo">
+                        <option value="none" disabled selected>-- Selecciona un animal --</option>
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gatos</option>
+                        <option value="camello">Camello</option>
+                    </select>
+                </label><br>
+                <label for="fechanac">Fecha de nacimiento: <input type="date" name="fechanac" id="fechanac"></label><br>
+                <input type="submit" value="Enviar">
+            </form>
+    </body> 
+</html>
